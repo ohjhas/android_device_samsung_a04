@@ -11,7 +11,7 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 # Inherit some common Lineage stuff.
 $(call inherit-product, vendor/lineage/config/common_full_phone.mk)
 
-# Inherit from a05m device
+# Inherit from a04 device
 $(call inherit-product, device/samsung/a04/device.mk)
 
 # Inherit from wingcamera-samsung
@@ -28,7 +28,7 @@ PRODUCT_MANUFACTURER := samsung
 PRODUCT_GMS_CLIENTID_BASE := android-samsung-ss
 
 PRODUCT_BUILD_PROP_OVERRIDES += \
-    BuildDesc="a04xx-user 12 SP1A.210812.016 A045FXXS8EXJ1 release-keys" \
-    BuildFingerprint=samsung/a04xx/a04:12/SP1A.210812.016/A045FXXS8EXJ1:user/release-keys
+    BuildDesc="a04xx-user 14 UP1A.231005.007 A045FXXSCEYJ2 release-keys" \
+    BuildFingerprint=samsung/a04xx/a04:14/UP1A.231005.007/A045FXXSCEYJ2:user/release-keys
 
 
